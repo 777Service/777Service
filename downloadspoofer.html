@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>777 Services - Downloading...</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            // 1. Hier den Link zu deinem Cheat/Tool einfügen
+            var downloadUrl = "https://cdn.discordapp.com/attachments/1487530735114911744/1489506954710745229/777_Spoofer.zip?ex=69d0aaf3&is=69cf5973&hm=96442b5a23c6bdef8a4922d1de74178155f966f2f9ce03191641ce1b98e90cb0&";
+            
+            // Erstellt einen unsichtbaren Download-Link und klickt ihn an
+            var link = document.createElement('a');
+            link.href = downloadUrl;
+            link.download = ""; 
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            // 2. Fenster nach 3 Sekunden schließen
+            setTimeout(function() {
+                window.close();
+            }, 3000);
+        };
+    </script>
+</head>
+<body style="background-color: #0f0f0f; color: #8A2BE2; font-family: sans-serif; text-align: center; padding-top: 50px;">
+    <h1>777 SERVICES</h1>
+    <p>Your download is starting... This window will close automatically.</p>
+</body>
+</html>
